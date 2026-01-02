@@ -98,7 +98,7 @@
             position: absolute;
             inset: 0;
             z-index: 1;
-            background-image: url('/images/image.png');
+            background-image: url('./images/image.png');
             background-size: cover;
             background-position: center;
             filter: brightness(0);
@@ -131,7 +131,7 @@
             position: absolute;
             inset: 0;
             z-index: 3;
-            background-image: url('/images/image.png');
+            background-image: url('./images/image.png');
             background-size: cover;
             background-position: center;
             mix-blend-mode: color-dodge;
@@ -824,9 +824,9 @@
         const maxScroll = 1000;
 
         // --- AUDIO ---
-        const introAudio = new Audio('/audios/intro.ogg');
-        const clockAudios = [new Audio('/audios/clock1.ogg'), new Audio('/audios/clock2.ogg')];
-        const ambientAudio = new Audio('/audios/ambient.ogg');
+        const introAudio = new Audio('./audios/intro.ogg');
+        const clockAudios = [new Audio('./audios/clock1.ogg'), new Audio('./audios/clock2.ogg')];
+        const ambientAudio = new Audio('./audios/ambient.ogg');
         ambientAudio.loop = true;
         ambientAudio.preload = 'auto';
 
@@ -1172,5 +1172,6 @@
         window.addEventListener('resize', init);
     </script>
 </body>
+
 
 </html>
