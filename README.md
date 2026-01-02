@@ -1,5 +1,2 @@
-## 🛠️ Tech Stack
-- **Frontend:** HTML5 / CSS3 (Advanced Animations & Mix-blend-modes)
-- **Engine:** Vanilla JavaScript (ES6+)
-- **Graphics:** Canvas API (Dust & Smoke Systems) / Spline (3D Rendering)
-- **Audio:** Web Audio logic with dynamic volume normalization
+## Avengers Doomsday Countdown
+An interactive countdown website for the upcoming movie Avengers: Doomsday. It features ambient sound effects and a cinematic design that reacts to your mouse movement.
